@@ -1,0 +1,20 @@
+ext{
+
+    // Dagger
+    dagger_version = "2.40"
+
+    // Rx
+    rxjava_version = '2.2.9'
+    rxandroid_version = '2.1.1'
+    rxkotlin_version = '2.3.0'
+
+    // SwipeToRefresh
+    swipe_to_refresh_version = '1.1.0'
+
+    //Navigation
+    nav_version = '2.4.2'
+
+    lifecycle_livedata = '2.4.1'
+    fragment_ktx_version = '1.4.1'
+
+}
