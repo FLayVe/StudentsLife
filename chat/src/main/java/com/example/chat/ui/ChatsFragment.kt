@@ -14,6 +14,8 @@ class ChatsFragment:BaseFragment() {
 
     private lateinit var binding: FragmentChatsBinding
 
+    override fun getBottomNavMenuVisibility() = false
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,

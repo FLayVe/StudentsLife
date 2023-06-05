@@ -1,25 +1,24 @@
-package com.example.home.ui
+package com.example.other.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.home.databinding.FragmentHomeBinding
+import com.example.other.databinding.FragmentOtherBinding
 import com.studentslife.ui.fragment.BaseFragment
 
-class HomeFragment: BaseFragment() {
+class OtherFragment: BaseFragment() {
 
-    private lateinit var binding: FragmentHomeBinding
+    private lateinit var binding: FragmentOtherBinding
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        binding = FragmentOtherBinding.inflate(inflater, container, false)
 
-        binding = FragmentHomeBinding.inflate(inflater, container, false).apply {
-            lifecycleOwner = this@HomeFragment
-        }
+
 
         return binding.root
     }

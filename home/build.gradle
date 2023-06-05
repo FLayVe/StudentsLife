@@ -43,6 +43,10 @@ dependencies {
 
     implementation project(':core')
 
+
+    // RxJava 2
+    implementation "io.reactivex.rxjava2:rxjava:$rxjava_version"
+
     //Dagger2
     kapt "com.google.dagger:dagger-compiler:$dagger_version"
     kapt "com.google.dagger:dagger-android-processor:$dagger_version"

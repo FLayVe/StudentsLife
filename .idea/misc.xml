@@ -5,18 +5,30 @@
       <map>
         <entry key="..\:/Projects/AndroidApps/StudentsLife/app/src/main/res/drawable-v24/ic_chat_active.xml" value="0.153" />
         <entry key="..\:/Projects/AndroidApps/StudentsLife/app/src/main/res/drawable-v24/ic_home.xml" value="0.153" />
+        <entry key="..\:/Projects/AndroidApps/StudentsLife/app/src/main/res/drawable-v24/ic_other_active.xml" value="0.153" />
         <entry key="..\:/Projects/AndroidApps/StudentsLife/app/src/main/res/drawable-v24/ic_profile_active.xml" value="0.153" />
         <entry key="..\:/Projects/AndroidApps/StudentsLife/app/src/main/res/drawable-v24/selector_ic_chat.xml" value="0.153" />
         <entry key="..\:/Projects/AndroidApps/StudentsLife/app/src/main/res/drawable-v24/selector_ic_profile.xml" value="0.153" />
         <entry key="..\:/Projects/AndroidApps/StudentsLife/app/src/main/res/drawable/ic_chat.xml" value="0.153" />
         <entry key="..\:/Projects/AndroidApps/StudentsLife/app/src/main/res/drawable/ic_home_active.xml" value="0.153" />
+        <entry key="..\:/Projects/AndroidApps/StudentsLife/app/src/main/res/drawable/ic_other.xml" value="0.153" />
         <entry key="..\:/Projects/AndroidApps/StudentsLife/app/src/main/res/drawable/ic_profile.xml" value="0.153" />
+        <entry key="..\:/Projects/AndroidApps/StudentsLife/app/src/main/res/drawable/ic_search.xml" value="0.153" />
+        <entry key="..\:/Projects/AndroidApps/StudentsLife/app/src/main/res/drawable/ic_search_active.xml" value="0.153" />
         <entry key="..\:/Projects/AndroidApps/StudentsLife/app/src/main/res/drawable/selector_bottom_nav_bar.xml" value="0.153" />
         <entry key="..\:/Projects/AndroidApps/StudentsLife/app/src/main/res/drawable/selector_ic_home.xml" value="0.153" />
+        <entry key="..\:/Projects/AndroidApps/StudentsLife/app/src/main/res/drawable/selector_ic_other.xml" value="0.153" />
+        <entry key="..\:/Projects/AndroidApps/StudentsLife/app/src/main/res/drawable/selector_ic_search.xml" value="0.153" />
         <entry key="..\:/Projects/AndroidApps/StudentsLife/app/src/main/res/layout/activity_main.xml" value="0.16510416666666666" />
+        <entry key="..\:/Projects/AndroidApps/StudentsLife/app/src/main/res/menu/menu_app_bar.xml" value="0.2734375" />
+        <entry key="..\:/Projects/AndroidApps/StudentsLife/app/src/main/res/menu/menu_bottom_bar.xml" value="0.27447916666666666" />
         <entry key="..\:/Projects/AndroidApps/StudentsLife/app/src/main/res/menu/menu_main.xml" value="0.22521367521367522" />
-        <entry key="..\:/Projects/AndroidApps/StudentsLife/chat/src/main/res/layout/fragment_chats.xml" value="0.1671875" />
+        <entry key="..\:/Projects/AndroidApps/StudentsLife/chat/src/main/res/layout/fragment_chats.xml" value="0.264" />
+        <entry key="..\:/Projects/AndroidApps/StudentsLife/chat/src/main/res/layout/item_chat.xml" value="0.22435897435897437" />
         <entry key="..\:/Projects/AndroidApps/StudentsLife/home/src/main/res/layout/fragment_home.xml" value="0.1671875" />
+        <entry key="..\:/Projects/AndroidApps/StudentsLife/home/src/main/res/layout/fragment_news.xml" value="0.22826086956521738" />
+        <entry key="..\:/Projects/AndroidApps/StudentsLife/home/src/main/res/layout/item_news.xml" value="0.2" />
+        <entry key="..\:/Projects/AndroidApps/StudentsLife/other/src/main/res/layout/fragment_other.xml" value="0.152" />
         <entry key="..\:/Projects/AndroidApps/StudentsLife/profile/src/main/res/layout/fragment_profile.xml" value="0.16614583333333333" />
       </map>
     </option>

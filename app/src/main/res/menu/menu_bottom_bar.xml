@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/tab_other"
+        android:enabled="true"
+        android:icon="@drawable/selector_ic_other"
+        android:title="Other"
+        app:showAsAction="ifRoom"/>
+
     <item
         android:id="@+id/tab_home"
         android:enabled="true"
         android:icon="@drawable/selector_ic_home"
         android:title="Home"
-        app:showAsAction="ifRoom"/>
-
-    <item
-        android:id="@+id/tab_chat"
-        android:enabled="true"
-        android:icon="@drawable/selector_ic_chat"
-        android:title="Chat"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/tab_profile"

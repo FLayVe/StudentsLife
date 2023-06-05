@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicBoolean
 
 class SingleLiveEvent<T> : MutableLiveData<T>() {
 
-    private val pending = AtomicBoolean(false)
+    private val mPending = AtomicBoolean(false)
 
     @MainThread
     override fun observe(owner: LifecycleOwner, observer: Observer<in T>) {
@@ -19,7 +19,7 @@ class SingleLiveEvent<T> : MutableLiveData<T>() {
         }
 
         super.observe(owner, Observer<T>{ it ->
-            if (pending.compareAndSet(true, false)){
+            if (mPending.compareAndSet(true, false)){
                 observer.onChanged(it)
             }
         })
@@ -27,7 +27,7 @@ class SingleLiveEvent<T> : MutableLiveData<T>() {
 
     @MainThread
     override fun setValue(@Nullable value: T) {
-        pending.set(true)
+        mPending.set(true)
         super.setValue(value)
     }
 }

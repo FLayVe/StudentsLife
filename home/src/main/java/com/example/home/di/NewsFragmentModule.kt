@@ -1,12 +1,12 @@
 package com.example.home.di
 
-import com.example.home.ui.HomeFragment
+import com.example.home.presentation.ui.NewsFragment
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 
 @Module
-interface HomeFragmentModule {
+interface NewsFragmentModule {
 
     @ContributesAndroidInjector
-    fun provideHomeFragment(): HomeFragment
+    fun provideNewsFragment(): NewsFragment
 }

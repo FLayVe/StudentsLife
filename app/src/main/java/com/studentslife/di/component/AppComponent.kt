@@ -3,6 +3,7 @@ package com.studentslife.di.component
 import android.content.Context
 import com.example.chat.di.ChatModule
 import com.example.home.di.HomeModule
+import com.example.other.di.OtherModule
 import com.example.profile.di.ProfileModule
 import com.studentslife.StudentsLifeApplication
 import com.studentslife.di.*
@@ -24,7 +25,8 @@ import javax.inject.Singleton
         CoreModule::class,
         HomeModule::class,
         ChatModule::class,
-        ProfileModule::class
+        ProfileModule::class,
+        OtherModule::class
     ]
 )
 

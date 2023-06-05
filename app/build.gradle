@@ -55,6 +55,7 @@ dependencies {
     implementation project(':home')
     implementation project(':chat')
     implementation project(':profile')
+    implementation project(':other')
 
     //Dagger2
     api "com.google.dagger:dagger:$dagger_version"

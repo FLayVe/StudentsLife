@@ -4,7 +4,9 @@ import dagger.Module
 
 @Module(
     includes = [
-        HomeFragmentModule::class
+        NewsFragmentModule::class,
+        HomeDomainModule::class,
+        HomeViewModelModule::class
     ]
 )
 interface HomeModule

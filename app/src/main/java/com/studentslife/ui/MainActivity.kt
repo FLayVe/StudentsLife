@@ -28,11 +28,20 @@ class MainActivity : DaggerAppCompatActivity() {
         binding.lifecycleOwner = this
         binding.bottomMenuStream = bottomNavMenuStream
 
+        bottomNavMenuStream.stream().observe(this, Observer {
+            Log.e("main", it.toString())
+        })
+
         val navHostFragment =
             supportFragmentManager.findFragmentById(R.id.fragment_container) as NavHostFragment
 
         val navController = navHostFragment.navController
 
         binding.bottomNavView.setupWithNavController(navController)
+
+        binding.chatButton.setOnClickListener {
+            navController.navigate(com.example.chat.R.id.tab_chat)
+        }
     }
+
 }
